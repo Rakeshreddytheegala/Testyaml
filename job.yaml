@@ -14,7 +14,7 @@ spec:
         command:
           - "bin/bash"
           - "-c"
-          - "curl http:myservice"
+          - "curl my-service"
       restartPolicy: Never
 
 
