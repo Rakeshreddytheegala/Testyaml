@@ -15,7 +15,7 @@ spec:
         app: gotest
     spec:
       containers:
-      - name: run_server
+      - name: runserver
         image: rakeshdockerit/gotest:8080
         ports:
         - containerPort: 8080
