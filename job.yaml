@@ -14,7 +14,7 @@ spec:
         command:
           - "bin/bash"
           - "-c"
-          - "curl http://127.0.0.1:8080"
+          - "curl http://10.101.16.141:8080"
       restartPolicy: Never
 
 
