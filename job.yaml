@@ -5,7 +5,8 @@ metadata:
 spec:
   template:
     metadata:
-      name: podname
+      labels:
+        app: gotest
     spec:
       containers:
       - name: counter
