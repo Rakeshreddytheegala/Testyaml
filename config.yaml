@@ -1,11 +1,11 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: goserver
-  labes:
+  lables:
     app: gotest
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: gotest
@@ -17,7 +17,7 @@ spec:
       containers:
       - name: run_server
         image: rakeshdockerit/gotest:8080
-        port:
+        ports:
         - containerPort: 8080
 ---
 apiVersion: v1
