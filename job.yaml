@@ -14,5 +14,5 @@ spec:
         command:
           - "bin/bash"
           - "-c"
-          - "curl https://my-service:8080"
+          - "curl https://my-service"
       restartPolicy: Never
