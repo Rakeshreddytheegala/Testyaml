@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: goserver
-  lables:
+  labels:
     app: gotest
 spec:
   replicas: 1
